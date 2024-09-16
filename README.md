@@ -63,6 +63,3 @@ https://api.data.gov.my/flood-warning/?meta=true
 
 ## Contributing
 Contributions to improve the analysis or extend the project's capabilities are welcome. Please submit a pull request or open an issue to discuss proposed changes.
-
-## License
-[Specify your license here]

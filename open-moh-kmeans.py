@@ -47,7 +47,7 @@ def perform_kmeans(X, n_clusters=3):
     return cluster_labels
 
 def visualize_clusters(df, cluster_labels):
-    plt.figure(figsize=(6, 4))
+    plt.figure(figsize=(12, 8))
     scatter = plt.scatter(df['longitude'], df['latitude'], c=cluster_labels, cmap='viridis')
     plt.colorbar(scatter)
     plt.title('K-means Clustering of Flood Warning Stations')

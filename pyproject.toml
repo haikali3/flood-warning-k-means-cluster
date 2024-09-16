@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "k-means-clustering"
+version = "0.1.0"
+description = ""
+authors = ["MUHAMMAD HAIKAL BIN MOHD TAHAR <muhammadhaikal.binmohdtahar@etiqa.com.my>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.1.1"
+matplotlib = "^3.9.2"
+scikit-learn = "^1.5.2"
+panda = "^0.3.1"
+wheel = "^0.44.0"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
